@@ -17,6 +17,10 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'stylesheets'
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'stylesheets', 'bootstrap', 'mixins')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'images')
 
+Rails.application.config.assets.precompile += %w( *.jpg )
+Rails.application.config.assets.precompile += %w( *.png )
+
+
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets

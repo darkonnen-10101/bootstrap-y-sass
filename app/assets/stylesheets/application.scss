@@ -14,3 +14,14 @@
  *= require_tree .
  *= require_self
  */
+
+ .container{
+   .fondo {
+     background-color: red;
+
+   }
+
+   .fondo_products {
+     background-color: blue;
+   }
+ }

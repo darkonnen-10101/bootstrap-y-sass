@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-inverse">
       <a class="navbar-brand" href="#">Darkonnen</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,13 +19,10 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="/">Home
             <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="/pages/about">About</a>
-          <a class="nav-item nav-link" href="<%= products_index_path %>">Products</a>
-
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container fondo_products">
       <%= yield %>
 
     </div>
