@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # Bootstrap
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 # Use SCSS for stylesheets
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
